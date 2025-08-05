@@ -13,6 +13,7 @@
 	<artifactId>Shopping_Cart</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Shopping_Cart</name>
+	<packaging>war</packaging>
 	<description>Online Shopping Cart Spring boot mvc Project</description>
 	<properties>
 		<java.version>17</java.version>
