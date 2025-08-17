@@ -12,7 +12,11 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/skfarid45/e-Commerce-Site.git'
             }
         }
-
+        stage('Build with Maven') {
+            steps {
+                sh 'mvn clean package -DskipTests'
+            }
+        }
         stage('Build Docker Image') {
             steps {
                 script {
