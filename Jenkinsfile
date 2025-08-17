@@ -1,5 +1,5 @@
 pipeline {
-    agent anyb
+    agent any
     tools{
         maven 'apache-maven'
     }
