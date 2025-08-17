@@ -1,5 +1,8 @@
 pipeline {
-    agent any
+    agent anyb
+    tools{
+        maven 'apache-maven'
+    }
 
     environment {
         DOCKER_HUB_REPO = "skfarid45/e-commerce-site"
