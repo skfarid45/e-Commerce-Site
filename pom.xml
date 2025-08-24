@@ -80,6 +80,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>Farid-e-Commerce</finalName>
 	</build>
 
 </project>
